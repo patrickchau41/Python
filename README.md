@@ -1,4 +1,4 @@
-# Python Projects
+# Python Portfolio Projects
 
 Welcome!! This repository is a collection of my Python-based data analysis projects, where I use Pandas, Matplotlib, and Seaborn to clean real-world datasets and uncover actionable insights through visualization.
 
