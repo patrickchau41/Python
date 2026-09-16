@@ -28,7 +28,7 @@ I start by importing necessary libraries and loading the dataset, followed by in
 I filtered out those positions by the top 3 most popular, and got the top 5 skills for these top 3 titles. This query highlights the most popular job titles and their top skills, showcasing which skills I should pay attention to depending on the role that I am targeting.
 
 View my noteook with detailed steps here:
-[notebooks](Skill_Demand.ipynb)
+[02_skill_demand.ipynb] (notebooks/02_skill_demand.ipynb)
 
 ### Visualize Data
 
