@@ -12,14 +12,14 @@ Below are the questions I want to answer in my project:
 
 # Tools I Used
 For my deep dive into London's bike-share data, I imported several key tools:
-- Python: The backbone of my analysis, allowing me to clean the data and uncover critical insights. I also used the following Python libraries:
-    - Pandas Library: To perform my data cleaning and analysis.
-    - Matplotlib Library: To visualize my data.
-    - Seaborn Library: To create more advanced and sophisticated visualizations.
-- Jupyter Notebook: Used to run my Python scripts, including my cleaning steps and commentary notes.
-- Visual Studio Code: Where I execute my Python scripts.
-- Tableau: Used to build an interactive dashboard featuring a 20-day moving average of ridership.
-- Git & GitHub: Essential for version control and sharing my Python code and analysis.
+- **Python**: The backbone of my analysis, allowing me to clean the data and uncover critical insights. I also used the following Python libraries:
+    - **Pandas Library**: To perform my data cleaning and analysis.
+    - **Matplotlib Library**: To visualize my data.
+    - **Seaborn Library**: To create more advanced and sophisticated visualizations.
+- **Jupyter Notebook**: Used to run my Python scripts, including my cleaning steps and commentary notes.
+- **Visual Studio Code**: Where I execute my Python scripts.
+- **Tableau**: Used to build an interactive dashboard featuring a 20-day moving average of ridership.
+- **Git & GitHub**: Essential for version control and sharing my Python code and analysis.
 
 # Data Preparation and Cleanup
 This section outlines the data cleaning steps taken to prepare the data for analysis, ensuring accuracy, readability, and usability.
@@ -28,7 +28,7 @@ This section outlines the data cleaning steps taken to prepare the data for anal
 I start by importing necessary libraries and loading the dataset, followed by:
 - Renaming columns for clarity (e.g., `t1` → `temp_real_C`, `hum` → `humidity_percent`)
 - Converting humidity values to percentages
-- Mapping coded season and weather integers into readable labels (e.g., `1` → `Clear`, `3` → `winter`)
+- Mapping coded season and weather integers into readable labels (e.g., `1` → Clear, `3` → winter)
 - Exporting the cleaned dataset for analysis and Tableau visualization
 
 View my notebook with detailed steps here: [London_Bike_Rides_Data_Cleaning.ipynb](London_Bike_Rides_Data_Cleaning.ipynb)
@@ -52,13 +52,13 @@ plt.show()
 
 ### Results
 
-![Average Ridership by Weather Condition](assets/weather_ridership.png)
+![Average Ridership by Weather Condition](visuals/weather_ridership.png)
 
 ### Insights
 
-- **Scattered Clouds** produced the highest average ridership (1,496) of any weather condition — even higher than fully Clear skies (1,162), a slightly counter-intuitive finding.
-- Ridership in **Clear** weather was 66% higher than in combined **Rain/Snow** conditions (1,162 vs. 700 average), confirming that adverse weather is a strong deterrent to ridership.
-- **Snowfall** saw the lowest ridership by a wide margin (251 average), roughly 6x lower than the best-performing condition.
+- Scattered Clouds produced the highest average ridership (1,496) of any weather condition — even higher than fully Clear skies (1,162), a slightly counter-intuitive finding.
+- Ridership in Clear weather was 66% higher than in combined Rain/Snow conditions (1,162 vs. 700 average), confirming that adverse weather is a strong deterrent to ridership.
+- Snowfall saw the lowest ridership by a wide margin (251 average), roughly 6x lower than the best-performing condition.
 
 ## 2. How does temperature affect ridership?
 
@@ -79,7 +79,7 @@ plt.show()
 
 ### Results
 
-![Average Ridership by Temperature](assets/temp_trend.png)
+![Average Ridership by Temperature](visuals/temp_trend.png)
 
 ### Insights
 
@@ -107,12 +107,12 @@ plt.show()
 
 ### Results
 
-![Hourly Ridership: Weekday vs Weekend](assets/weekday_weekend_pattern.png)
+![Hourly Ridership: Weekday vs Weekend](visuals/weekday_weekend_pattern.png)
 
 ### Insights
 
-- Weekday ridership shows a clear double-peak commuter pattern, spiking sharply at **8am (3,864 rides)** and again at **5-6pm (3,232 / 3,052 rides)** — consistent with people riding to and from work.
-- Weekend ridership instead follows one broad, gradual curve, peaking in the early afternoon around **1-3pm (2,075-2,148 rides)**, with no rush-hour spikes at all.
+- Weekday ridership shows a clear double-peak commuter pattern, spiking sharply at 8am (3,864 rides) and again at 5-6pm (3,232 / 3,052 rides) — consistent with people riding to and from work.
+- Weekend ridership instead follows one broad, gradual curve, peaking in the early afternoon around 1-3pm (2,075-2,148 rides), with no rush-hour spikes at all.
 - This confirms two distinct rider segments in the data: weekday commuters and weekend leisure riders, each with a fundamentally different usage pattern.
 
 ## 4. How does ridership shift across the seasons?
@@ -132,19 +132,19 @@ plt.show()
 
 ### Results
 
-![Average Ridership by Season](assets/season_ridership.png)
+![Average Ridership by Season](visuals/season_ridership.png)
 
 ### Insights
 
-- **Summer** saw the highest average ridership of any season, consistent with the strong positive relationship between temperature and ridership found earlier.
-- **Winter** saw the lowest average ridership, reinforcing that cold weather — not just precipitation — plays a meaningful role in suppressing ridership.
-- **Autumn** outperformed **Spring** slightly, suggesting factors beyond temperature alone (like daylight hours or seasonal routine) may also be at play.
+- Summer saw the highest average ridership of any season, consistent with the strong positive relationship between temperature and ridership found earlier.
+- Winter saw the lowest average ridership, reinforcing that cold weather — not just precipitation — plays a meaningful role in suppressing ridership.
+- Autumn outperformed Spring slightly, suggesting factors beyond temperature alone (like daylight hours or seasonal routine) may also be at play.
 
-## Interactive Dashboard
+# Interactive Dashboard
 
 In addition to the Python analysis above, I built an interactive Tableau dashboard to explore ridership trends over the full dataset period (January 2015 – January 2017). The dashboard features:
 
-- A **20-day moving average** line chart, smoothing out daily noise to reveal longer-term ridership trends across the full two-year period, with a draggable timeline to select and inspect any custom date range
+- A **20-day moving average line chart**, smoothing out daily noise to reveal longer-term ridership trends across the full two-year period, with a draggable timeline to select and inspect any custom date range
 - A **Temperature vs. Wind Speed heatmap**, binning ride counts across both variables simultaneously to reveal how the two factors interact — for example, showing that the highest ridership concentrations cluster in moderate-temperature, low-to-moderate wind conditions, while ridership drops off at both weather extremes
 
-[View the Interactive Dashboard](https://public.tableau.com/app/profile/patrick.chau7690/viz/LondonBikeRides_17781088190310/Dashboard1)
+**[View the Interactive Dashboard on Tableau Public →](https://public.tableau.com/app/profile/patrick.chau7690/viz/LondonBikeRides_17781088190310/Dashboard1)**
