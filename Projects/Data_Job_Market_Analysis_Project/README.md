@@ -28,7 +28,7 @@ I start by importing necessary libraries and loading the dataset, followed by in
 I filtered out those positions by the top 3 most popular, and got the top 5 skills for these top 3 titles. This query highlights the most popular job titles and their top skills, showcasing which skills I should pay attention to depending on the role that I am targeting.
 
 View my noteook with detailed steps here:
-[Skill_Demand.ipynb](Skill_Demand.ipynb)
+[02_skill_demand.ipynb](notebooks/02_skill_demand.ipynb)
 
 ### Visualize Data
 
@@ -46,7 +46,7 @@ plt.show()
 
 ### Results
 
-![Visualization of Top Skills for Data Nerds](images/skill_demand_all_dataroles.png)
+![Visualization of Top Skills for Data Nerds](images/01_skill_demand_by_role.png)
 
 
 ### Insights
@@ -76,7 +76,7 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills for Data Analysts in the US](images/skill_trend.png)
+![Trending Top Skills for Data Analysts in the US](images/02_skill_trend_over_time.png)
 
 
 ### Insights
@@ -105,7 +105,7 @@ plt.show()
 
 #### Results
 
-![Salary Distributions in the US](images/top6_boxplot.png)
+![Salary Distributions in the US](images/03_top6_boxplot.png)
 
 
 #### Insights
@@ -137,7 +137,7 @@ plt.show()
 
 In-Demand Skills for Data Analysts in the US:
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](images/top10barplot.png)
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](images/04_top10_skills_barplot.png)
 
 
 #### Insights:
@@ -164,7 +164,7 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US](images/OptimalSkills.png)
+![Most Optimal Skills for Data Analysts in the US](images/05_optimal_skills.png)
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
 
 #### Insights:
