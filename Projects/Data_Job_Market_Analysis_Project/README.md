@@ -46,7 +46,7 @@ plt.show()
 
 ### Results
 
-![Visualization of Top Skills for Data Nerds](images/skill_demand_all_dataroles.png)
+![Visualization of Top Skills for Data Nerds](images/01_indemand_dataroles.png)
 
 
 ### Insights
@@ -76,7 +76,7 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills for Data Analysts in the US](images/skill_trend.png)
+![Trending Top Skills for Data Analysts in the US](images/02_skill_trend.png)
 
 
 ### Insights
