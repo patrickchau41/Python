@@ -46,7 +46,7 @@ plt.show()
 
 ### Results
 
-![Visualization of Top Skills for Data Nerds](images/01_indemand_dataroles.png)
+![Visualization of Top Skills for Data Nerds](images/01_skill_demand_by_role.png)
 
 
 ### Insights
@@ -76,7 +76,7 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills for Data Analysts in the US](images/02_skill_trend.png)
+![Trending Top Skills for Data Analysts in the US](images/02_skill_trend_over_time.png)
 
 
 ### Insights
@@ -137,7 +137,7 @@ plt.show()
 
 In-Demand Skills for Data Analysts in the US:
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](images/03_top10barplot.png)
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](images/04_top10_skills_barplot.png)
 
 
 #### Insights:
@@ -164,7 +164,7 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US](images/04_optimal_skills.png)
+![Most Optimal Skills for Data Analysts in the US](images/05_optimal_skills.png)
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
 
 #### Insights:
