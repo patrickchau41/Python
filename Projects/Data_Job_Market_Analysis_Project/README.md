@@ -105,7 +105,7 @@ plt.show()
 
 #### Results
 
-![Salary Distributions in the US](images/top6_boxplot.png)
+![Salary Distributions in the US](images/03_top6_boxplot.png)
 
 
 #### Insights
@@ -137,7 +137,7 @@ plt.show()
 
 In-Demand Skills for Data Analysts in the US:
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](images/top10barplot.png)
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](images/03_top10barplot.png)
 
 
 #### Insights:
@@ -164,7 +164,7 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US](images/OptimalSkills.png)
+![Most Optimal Skills for Data Analysts in the US](images/04_optimal_skills.png)
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
 
 #### Insights:
