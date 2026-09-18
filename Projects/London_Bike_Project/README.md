@@ -148,3 +148,25 @@ In addition to the Python analysis above, I built an interactive Tableau dashboa
 - A **Temperature vs. Wind Speed heatmap**, binning ride counts across both variables simultaneously to reveal how the two factors interact — for example, showing that the highest ridership concentrations cluster in moderate-temperature, low-to-moderate wind conditions, while ridership drops off at both weather extremes
 
 **[View the Interactive Dashboard on Tableau Public →](https://public.tableau.com/app/profile/patrick.chau7690/viz/LondonBikeRides_17781088190310/Dashboard1)**
+
+# What I Learned
+
+Throughout this project, I strengthened several Python and data visualization skills:
+- **Data Cleaning for Real-World Messiness**: Renaming cryptic column codes (`t1` → `temp_real_C`), converting humidity to percentages, and mapping numeric weather/season codes into readable labels — the unglamorous work that makes analysis possible.
+- **Multi-Variable Relationships**: Moved beyond single-variable summaries to compare ridership across combinations of factors (weekday vs. weekend, by hour; temperature bucketed into ranges) to find patterns a single average would hide.
+- **Bridging Python and Tableau**: Used Python for the cleaning and exploratory groundwork, then handed the cleaned dataset to Tableau for the interactive, presentation-layer dashboard — treating each tool for what it's actually best at, rather than forcing one tool to do everything.
+
+# Conclusions
+
+### Insights:
+
+From the analysis, several general insights were gathered:
+
+1. **Weather Condition**: Scattered Clouds produced the highest average ridership, while adverse weather (rain/snow) suppressed ridership significantly — confirming that people generally avoid riding in bad weather, with cloud cover alone not being a deterrent.
+2. **Temperature**: Ridership rises nearly linearly with temperature up to around 30°C, after which it slightly declines — suggesting a comfort ceiling beyond which even warm weather stops encouraging more riders.
+3. **Weekday vs. Weekend**: Weekday ridership shows a clear double-peak commuter pattern (8am and 5-6pm), while weekend ridership follows one broad afternoon curve — confirming two distinct rider segments using the system for different purposes.
+4. **Seasonality**: Summer sees the highest ridership and winter the lowest, consistent with the temperature findings, while autumn slightly outperforming spring suggests factors beyond temperature alone (daylight hours, routine) also play a role.
+
+# Closing Thoughts
+
+This project reinforced how much a dataset's real signal can hide behind single-variable summaries — the weekday/weekend split, in particular, only became clear once I looked at ridership by hour rather than by day as a whole. Combining a Python-based cleaning and exploratory phase with a Tableau dashboard for interactive exploration gave me practice using each tool where it's strongest, rather than trying to do everything in one place. Beyond the technical skills, this project is a genuinely practical example of how weather and calendar data can inform real operational decisions — from bike-share fleet rebalancing to staffing predictions — based on patterns that are measurable, not just intuitive.
