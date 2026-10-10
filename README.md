@@ -4,7 +4,7 @@ Welcome! This repository is a collection of my Python-based data analysis projec
 
 ## Projects
 
-### [Healthcare Readmission Analysis](https://github.com/patrickchau41/Python/tree/main/Projects/Healthcare_Readmission_Project)
+### [Healthcare Readmission Analysis](https://github.com/patrickchau41/Python/blob/main/Projects/healthcare)
 Analyzes about 70,000 diabetic patients from 130 US hospitals to find which patient and hospital-stay factors are linked to 30-day readmission. Cleans the raw data (101,766 rows down to 69,982 unique patients), answers nine questions across numbered notebooks, and builds simple High / Medium / Standard risk tiers that show which patients a hospital should follow up with first. The High tier (5% of patients) is readmitted at 23%, compared with under 7% for the Standard tier. Includes an interactive Power BI dashboard. Tools: Python, Pandas, Jupyter Notebook, Power BI.
 
 ### [Data Job Market Analysis](https://github.com/patrickchau41/Python/blob/main/Projects/Data_Job_Market_Analysis_Project)
