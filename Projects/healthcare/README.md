@@ -36,7 +36,7 @@ Before cleaning, the raw file was inspected with `df.shape`, `df.head()`, `df.in
 
 ## Data Cleaning
 
-View the full notebook here: [01_data_inspection_cleaning.ipynb](notebooks/diabetic_healthcare_cleaned.ipynb)
+View the full notebook here: [diabetic_healthcare_cleaned.ipynb](diabetic_healthcare_cleaned.ipynb)
 
 **Results**
 1. **Dropped `weight` and `payer_code`.** They were missing for 96.9% and 39.6% of patients and could not be used (50 columns to 48).
