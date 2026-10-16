@@ -59,7 +59,7 @@ View the full notebook here: [diabetic_healthcare_cleaned.ipynb](diabetic_health
 
 ## Q1. Are prior hospital visits linked to readmission?
 
-View the notebook: [02_prior_visits.ipynb](notebooks/02_prior_visits.ipynb)
+View the notebook: [01_prior_visits.ipynb](notebooks/01_Prior_Visits.ipynb)
 
 **Results**
 - Readmission rises steadily with prior overnight (inpatient) stays: 8.13% with 0, 12.88% with 1, 18.52% with 2, and 26.37% with 3 or more.
@@ -71,7 +71,7 @@ View the notebook: [02_prior_visits.ipynb](notebooks/02_prior_visits.ipynb)
 
 ## Q2. Does the length and complexity of the stay matter?
 
-View the notebook: [03_hospital_stay.ipynb](notebooks/03_hospital_stay.ipynb)
+View the notebook: [02_hospital_dtay.ipynb](notebooks/02_hospital_dtay.ipynb)
 
 **Results**
 - Readmission rises with days in the hospital: 7.16% for 1 to 2 days, 8.48% for 3 to 4, 10.55% for 5 to 7, and 11.79% for 8 to 14.
@@ -83,7 +83,7 @@ View the notebook: [03_hospital_stay.ipynb](notebooks/03_hospital_stay.ipynb)
 
 ## Q3. Does where the patient goes after discharge matter?
 
-View the notebook: [04_discharge_admission.ipynb](notebooks/04_discharge_admission.ipynb)
+View the notebook: [03_admission_discharge.ipynb](notebooks/03_admission_discharge.ipynb)
 
 **Results**
 - Discharge destination shows the biggest differences in the project. Groups with at least 400 patients:
@@ -101,7 +101,7 @@ View the notebook: [04_discharge_admission.ipynb](notebooks/04_discharge_admissi
 
 ## Q4. Do age, gender and race matter?
 
-View the notebook: [05_demographics.ipynb](notebooks/05_demographics.ipynb)
+View the notebook: [04_Demographics.ipynb](notebooks/04_Demographics.ipynb)
 
 **Results**
 - Readmission rises with age, from about 7% for ages 20 to 59 to 10.79% for ages 80 to 90.
@@ -113,7 +113,7 @@ View the notebook: [05_demographics.ipynb](notebooks/05_demographics.ipynb)
 
 ## Q5. Does the primary diagnosis matter?
 
-View the notebook: [06_diagnosis.ipynb](notebooks/06_diagnosis.ipynb)
+View the notebook: [05_main_diagnosis.ipynb](notebooks/05_main_diagnosis.ipynb)
 
 **Results**
 - Diagnoses were grouped from ICD-9 codes into 9 categories. Readmission by primary diagnosis:
@@ -132,7 +132,7 @@ View the notebook: [06_diagnosis.ipynb](notebooks/06_diagnosis.ipynb)
 
 ## Q6. Do testing and diabetes medication matter?
 
-View the notebook: [07_diabetes_care.ipynb](notebooks/07_diabetes_care.ipynb)
+View the notebook: [06_diabetes_care.ipynb](notebooks/06_diabetes_care.ipynb)
 
 **Results**
 - Patients with a medication change were readmitted more often (9.44% versus 8.60%).
@@ -145,7 +145,7 @@ View the notebook: [07_diabetes_care.ipynb](notebooks/07_diabetes_care.ipynb)
 
 ## Q7. Which patients should be prioritized? (Risk Tiers)
 
-View the notebook: [08_risk_tiers.ipynb](notebooks/08_risk_tiers.ipynb)
+View the notebook: [07_prioritized_patients.ipynb](notebooks/07_prioritized_patients.ipynb)
 
 Patients were sorted into three tiers with plain rules based on Q1 to Q6:
 - **High:** discharged to rehab, or 2 or more prior inpatient stays
@@ -168,7 +168,7 @@ Patients were sorted into three tiers with plain rules based on Q1 to Q6:
 
 ## Q8. Do risk factors stack?
 
-View the notebook: [09_stacking.ipynb](notebooks/09_stacking.ipynb)
+View the notebook: [08_stacked.ipynb](notebooks/08_stacked.ipynb)
 
 Readmission rate by discharge destination and prior inpatient stays:
 
@@ -191,7 +191,7 @@ Groups with fewer than 100 patients are not shown.
 
 ## Q9. Do the findings hold within age groups?
 
-View the notebook: [10_age_checks_and_export.ipynb](notebooks/10_age_checks_and_export.ipynb)
+View the notebook: [09_all_age_groups.ipynb](notebooks/09_all_age_groups.ipynb)
 
 Because older patients are readmitted more often and are more likely to go to facilities, discharge destination and prior stays were checked within three age groups (under 60, 60 to 79, 80 and over). Every group had at least 229 patients.
 
