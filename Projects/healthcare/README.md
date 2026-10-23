@@ -8,7 +8,7 @@ Hospitals can face financial penalties for some preventable readmissions, and fo
 
 **Business question:** Which diabetic patient and hospital-encounter factors are linked to 30-day readmission, and which patients should a hospital prioritize for follow-up to prevent avoidable readmissions?
 
-** Key Findings
+## Key Findings
 - About 9% of patients (8.98%) are readmitted within 30 days.
 - Prior inpatient stays and discharge destination are the strongest factors. Readmission rises from 8.1% with no prior stays to 26.4% with 3 or more, and from 6.9% for patients sent home to 26.4% for patients sent to rehab.
 - Age, length of stay, diagnosis and diabetes medication add smaller differences (about 2 to 5 points).
