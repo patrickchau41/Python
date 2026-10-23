@@ -1,5 +1,9 @@
 # Diabetic Patient 30-Day Readmission Analysis
 
+**Topic:** hospital readmission risk among diabetic patients (130 US hospitals, 1999 to 2008; 69,982 first-visit patients).
+
+**Question:** Which diabetic patients are most likely to return to the hospital within 30 days, and who should a hospital follow up with first?
+
 **Answer in brief:** Follow up first with patients discharged to rehab or with 2 or more prior inpatient stays (the High tier). That group is 5% of patients and is readmitted at 23%, compared with under 7% in the Standard tier. The two factors stack, and both hold within every age group.
 
 ![Dashboard preview](assets/healthcare_dashbord_overview.png)
