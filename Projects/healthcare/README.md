@@ -55,7 +55,7 @@ The 48 remaining columns plus `readmitted_30d` and the diagnosis category make t
 
 ## Q1. Are prior hospital visits linked to readmission?
 
-Notebook: [01_prior_visits.ipynb](notebooks/01_prior_visits.ipynb)
+Notebook: [01_prior_visits.ipynb](notebooks/01_Prior_Visits.ipynb)
 
 **Answer: yes, prior inpatient stays are the strongest single warning sign.**
 
