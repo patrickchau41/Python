@@ -2,7 +2,7 @@
 
 **Answer in brief:** Follow up first with patients discharged to rehab or with 2 or more prior inpatient stays (the High tier). That group is 5% of patients and is readmitted at 23%, compared with under 7% in the Standard tier. The two factors stack, and both hold within every age group.
 
-![Dashboard preview](assets/healthcare_dashboard_overview.png)
+![Dashboard preview](Projects/healthcare/assets/healthcare_dashbord_overview.png)
 
 ## Overview
 
