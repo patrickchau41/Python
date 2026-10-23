@@ -8,15 +8,16 @@ Hospitals can face financial penalties for some preventable readmissions, and fo
 
 **Business question:** Which diabetic patient and hospital-encounter factors are linked to 30-day readmission, and which patients should a hospital prioritize for follow-up to prevent avoidable readmissions?
 
-## Key Findings
-
+** Key Findings
 - About 9% of patients (8.98%) are readmitted within 30 days.
-- **Prior inpatient stays and discharge destination are the strongest factors.** Readmission rises from 8.1% with no prior stays to 26.4% with 3 or more, and from 6.9% for patients sent home to 26.4% for patients sent to rehab.
+- Prior inpatient stays and discharge destination are the strongest factors. Readmission rises from 8.1% with no prior stays to 26.4% with 3 or more, and from 6.9% for patients sent home to 26.4% for patients sent to rehab.
 - Age, length of stay, diagnosis and diabetes medication add smaller differences (about 2 to 5 points).
 - Admission type, admission source, gender and number of procedures show little relationship.
-- **Simple risk tiers work:** 23.1% readmission in the High tier versus 6.8% in the Standard tier.
-- **Risk factors stack,** so patients with both a high-risk discharge and prior stays should be followed up first.
-- Both main factors hold within every age group, so they are not just a stand-in for age.
+- Risk factors stack. A patient sent home with 2 or more prior stays (18.3%) is riskier than a patient sent to another facility with none (12.5%).
+- Simple risk tiers rank patients usefully: 23.1% readmission in the High tier versus 6.8% in the Standard tier. The High tier is 5.4% of patients but only 13.9% of readmissions, and 54.5% of readmissions still occur in the Standard tier, so tiers decide how much follow-up a patient gets, not whether they get any.
+- Both main factors and the tiers hold within every age group, so they are not just a stand-in for age.
+- Circulatory patients produce the most readmissions (33%) because of their volume, not their rate. Injury has the highest rate but far fewer patients.
+- For patients admitted mainly for diabetes, those with an A1C test were readmitted less (7.23% versus 10.17%). This is an association, not proof that testing prevents readmission.
 
 ## Dataset
 
