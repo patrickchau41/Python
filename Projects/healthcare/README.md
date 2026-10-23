@@ -2,7 +2,7 @@
 
 **Answer in brief:** Follow up first with patients discharged to rehab or with 2 or more prior inpatient stays (the High tier). That group is 5% of patients and is readmitted at 23%, compared with under 7% in the Standard tier. The two factors stack, and both hold within every age group.
 
-![Dashboard preview](Projects/healthcare/assets/healthcare_dashbord_overview.png)
+![Dashboard preview](assets/healthcare_dashbord_overview.png)
 
 ## Overview
 
@@ -253,7 +253,7 @@ Older patients are readmitted more often and are more likely to go to facilities
 
 ## Dashboard
 
-![Power BI dashboard](assets/healthcare_dashboard_overview.png)
+![Power BI dashboard](assets/healthcare_dashbord_overview.png)
 
 The one-page Power BI dashboard (`dashboard/healthcare_readmission.pbix`) answers the question **"Which diabetic patients are most likely to return within 30 days, and who should be followed up with first?"**
 
