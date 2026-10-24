@@ -151,7 +151,7 @@ Notebook: [05_main_diagnosis.ipynb](notebooks/05_main_diagnosis.ipynb)
 
 **Answer: a little. Diagnosis creates a spread of about 3.5 points, smaller than prior stays or discharge destination.**
 
-![Readmission Count Treemap Based off Diagnosis Category](assets/05_diagnosis_treemap.png)
+![Readmission Count Treemap Based off Diagnosis Category](assets/diagnosis_treemap.png)
 
 - Highest and lowest rates: injury (10.80%), circulatory (9.68%) and diabetes (9.12%) are highest. Respiratory (7.30%) and digestive (8.01%) are lowest, a spread of only 3.5 points.
 - Circulatory is the biggest source of readmissions: 2,070 of the 6,283 (33%), because it is also the largest group (31% of patients). Its rate is only slightly above average, so volume, not risk, makes it important.
@@ -212,7 +212,7 @@ Standard is 72% of patients and 54.5% of readmissions, so the tiers cannot find 
 
 **What this tells us:** the tiers sort patients well (23.07% in High, 6.80% in Standard), but they cannot find most readmissions on their own because the Standard tier is so large. Action: use the tiers to decide how much follow-up each patient gets, not whether they get any.
 
-![Share of patients vs share of readmissions, by risk tier](assets/07_risk_tiers.png)
+![Share of patients vs share of readmissions, by risk tier](assets/tier_share_chart.png)
 
 ## Q8. Do risk factors stack?
 
@@ -235,7 +235,7 @@ Groups with fewer than 100 patients are not shown.
 
 **What this tells us:** the two factors add up. Home is the safest destination, yet a patient sent home with 2 or more prior stays (18.3%) is riskier than a patient sent to another facility with none (12.5%). Rehab patients are high risk even with no prior stays (25.7%). Action: do not look at discharge destination alone. A patient who is going home but has repeated admissions still needs follow-up.
 
-![Readmission rate by prior stays and discharge destination](assets/08_stacking_matrix.png)
+![Readmission rate by prior stays and discharge destination](assets/stacking_matrix.png)
 
 ## Q9. Do the findings hold within age groups?
 
@@ -251,7 +251,7 @@ Older patients are readmitted more often and are more likely to go to facilities
 
 **What this tells us:** the tiers rank patients the same way at every age, with High about 3 to 4 times Standard in each group. An age-based rule would miss that a patient under 60 sent to rehab (25.8%) is far riskier than an 80-year-old sent home (8.2%). Action: use the same two screening questions for every adult patient. An age-based rule would miss that a patient under 60 sent to rehab (25.8%) is far riskier than an 80-year-old sent home (8.2%).
 
-![Readmission rate by risk tier within each age group](assets/09_tier_by_age.png)
+![Readmission rate by risk tier within each age group](assets/tier_by_age.png)
 
 ## Factor Ranking
 
